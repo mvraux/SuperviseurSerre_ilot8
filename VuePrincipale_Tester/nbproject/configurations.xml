@@ -7,11 +7,13 @@
       <itemPath>Observable.h</itemPath>
       <itemPath>Observateur.h</itemPath>
       <itemPath>VuePrincipale.h</itemPath>
+      <itemPath>/home/snir2g2/NetBeansProjects/SuperviseurSerre_ilot8/VueSerreTesteur/VueSerre.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
                    projectFiles="true">
       <itemPath>VuePrincipale.ui</itemPath>
+      <itemPath>/home/snir2g2/NetBeansProjects/SuperviseurSerre_ilot8/VueSerreTesteur/VueSerre.ui</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -19,6 +21,7 @@
       <itemPath>Observable.cpp</itemPath>
       <itemPath>Observateur.cpp</itemPath>
       <itemPath>VuePrincipale.cpp.cc</itemPath>
+      <itemPath>/home/snir2g2/NetBeansProjects/SuperviseurSerre_ilot8/VueSerreTesteur/VueSerre.cpp.cc</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -33,6 +36,9 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>../VueSerreTesteur</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="Debug" type="4">
@@ -46,6 +52,21 @@
       </qt>
       <compileType>
       </compileType>
+      <item path="/home/snir2g2/NetBeansProjects/SuperviseurSerre_ilot8/VueSerreTesteur/VueSerre.cpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/snir2g2/NetBeansProjects/SuperviseurSerre_ilot8/VueSerreTesteur/VueSerre.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/snir2g2/NetBeansProjects/SuperviseurSerre_ilot8/VueSerreTesteur/VueSerre.ui"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="Observable.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Observable.h" ex="false" tool="3" flavor2="0">
@@ -87,6 +108,21 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="/home/snir2g2/NetBeansProjects/SuperviseurSerre_ilot8/VueSerreTesteur/VueSerre.cpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/snir2g2/NetBeansProjects/SuperviseurSerre_ilot8/VueSerreTesteur/VueSerre.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/snir2g2/NetBeansProjects/SuperviseurSerre_ilot8/VueSerreTesteur/VueSerre.ui"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="Observable.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Observable.h" ex="false" tool="3" flavor2="0">

@@ -10,16 +10,14 @@
  *
  * Created on 17 janvier 2019, 14:21
  */
-
 #include "VuePrincipale.h"
 using namespace std;
 
 VuePrincipale::VuePrincipale() {
     widget.setupUi(this);
-    QGridLayout *serre = new QGridLayout(this);
     VueSerre* ptrserre = new VueSerre;
-    serre->addWidget(ptrserre);
-    setLayout(serre);
+    widget.serre->addWidget(ptrserre);
+
 }
 
 VuePrincipale::~VuePrincipale() {

@@ -14,8 +14,7 @@
 #define _VUEPRINCIPALE_H
 #include <QLayout>
 #include <QBoxLayout>
-#include "VueSerre.h"
-#include "ui_VueSerre.h"
+#include "../VueSerreTesteur/VueSerre.h"
 #include "ui_VuePrincipale.h"
 using namespace std;
 
