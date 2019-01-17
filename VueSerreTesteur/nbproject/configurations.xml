@@ -4,8 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>InfoClimat.h</itemPath>
-      <itemPath>vueSerre.h</itemPath>
+      <itemPath>InfosClimat.h</itemPath>
+      <itemPath>VueSerre.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -15,9 +15,9 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>InfoClimat.cpp</itemPath>
+      <itemPath>InfosClimat.cpp</itemPath>
+      <itemPath>VueSerre.cpp.cc</itemPath>
       <itemPath>main.cpp</itemPath>
-      <itemPath>vueSerre.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -44,17 +44,17 @@
       </qt>
       <compileType>
       </compileType>
-      <item path="InfoClimat.cpp" ex="false" tool="1" flavor2="0">
+      <item path="InfosClimat.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="InfoClimat.h" ex="false" tool="3" flavor2="0">
+      <item path="InfosClimat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VueSerre.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VueSerre.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="VueSerre.ui" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="vueSerre.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="vueSerre.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="4">
@@ -81,17 +81,17 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="InfoClimat.cpp" ex="false" tool="1" flavor2="0">
+      <item path="InfosClimat.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="InfoClimat.h" ex="false" tool="3" flavor2="0">
+      <item path="InfosClimat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VueSerre.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VueSerre.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="VueSerre.ui" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="vueSerre.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="vueSerre.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

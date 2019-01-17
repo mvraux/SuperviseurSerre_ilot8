@@ -14,11 +14,11 @@
 #ifndef INFOCLIMAT_H
 #define INFOCLIMAT_H
 
-class InfoClimat {
+class InfosClimat {
 public:
-    InfoClimat();
-    InfoClimat(const InfoClimat& orig);
-    virtual ~InfoClimat();
+    InfosClimat();
+    InfosClimat(const InfosClimat& orig);
+    virtual ~InfosClimat();
 private:
     int hygrometrie;
     int temperature;

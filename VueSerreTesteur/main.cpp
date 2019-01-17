@@ -12,6 +12,8 @@
  */
 
 #include <QApplication>
+#include "VueSerre.h"
+#include "InfosClimat.h"
 
 int main(int argc, char *argv[]) {
     // initialize resources, if needed
@@ -20,6 +22,15 @@ int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
     // create and show your widgets here
-
+    
+    VueSerre* uneVueSerre = new VueSerre();
+    InfosClimat * uneInfoClimat = new InfosClimat();
+    
+    uneVueSerre->show();
+   
+    uneVueSerre->mettreAJour();
+    uneInfoClimat.
+    
+    
     return app.exec();
 }
