@@ -5,17 +5,17 @@
  */
 
 /*
- * File:   VuePrincipale_Tester.cpp
+ * File:   VuePrincipale.cpp
  * Author: snir2g2
  *
- * Created on 10 janvier 2019, 18:17
+ * Created on 17 janvier 2019, 14:21
  */
 
-#include "VuePrincipale_Tester.h"
+#include "VuePrincipale.h"
 
-VuePrincipale_Tester::VuePrincipale_Tester() {
+VuePrincipale::VuePrincipale() {
     widget.setupUi(this);
 }
 
-VuePrincipale_Tester::~VuePrincipale_Tester() {
+VuePrincipale::~VuePrincipale() {
 }

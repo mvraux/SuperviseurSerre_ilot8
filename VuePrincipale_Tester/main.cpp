@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 
     QApplication app(argc, argv);
 
-    // create and show your widgets here
+// create and show your widgets here
 
     return app.exec();
 }

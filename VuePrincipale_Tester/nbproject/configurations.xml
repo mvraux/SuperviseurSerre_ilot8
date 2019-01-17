@@ -4,17 +4,21 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>VuePrincipale_Tester.h</itemPath>
+      <itemPath>Observable.h</itemPath>
+      <itemPath>Observateur.h</itemPath>
+      <itemPath>VuePrincipale.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
                    projectFiles="true">
-      <itemPath>VuePrincipale_Tester.ui</itemPath>
+      <itemPath>VuePrincipale.ui</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>VuePrincipale_Tester.cpp.cc</itemPath>
+      <itemPath>Observable.cpp</itemPath>
+      <itemPath>Observateur.cpp</itemPath>
+      <itemPath>VuePrincipale.cpp.cc</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -42,11 +46,19 @@
       </qt>
       <compileType>
       </compileType>
-      <item path="VuePrincipale_Tester.cpp.cc" ex="false" tool="1" flavor2="0">
+      <item path="Observable.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="VuePrincipale_Tester.h" ex="false" tool="3" flavor2="0">
+      <item path="Observable.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="VuePrincipale_Tester.ui" ex="false" tool="3" flavor2="0">
+      <item path="Observateur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Observateur.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VuePrincipale.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VuePrincipale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VuePrincipale.ui" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -75,11 +87,19 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="VuePrincipale_Tester.cpp.cc" ex="false" tool="1" flavor2="0">
+      <item path="Observable.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="VuePrincipale_Tester.h" ex="false" tool="3" flavor2="0">
+      <item path="Observable.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="VuePrincipale_Tester.ui" ex="false" tool="3" flavor2="0">
+      <item path="Observateur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Observateur.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VuePrincipale.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VuePrincipale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VuePrincipale.ui" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
