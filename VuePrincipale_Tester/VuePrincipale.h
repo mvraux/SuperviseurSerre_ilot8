@@ -12,17 +12,24 @@
  */
 #ifndef _VUEPRINCIPALE_H
 #define _VUEPRINCIPALE_H
-
+#include <QLayout>
+#include <QBoxLayout>
+#include "VueSerre.h"
+#include "ui_VueSerre.h"
 #include "ui_VuePrincipale.h"
+using namespace std;
 
-class VuePrincipale : public QDialog {
+class VuePrincipale : public QWidget {
     Q_OBJECT
 public:
-    VuePrincipale(Superviseur* unSuperviseur);
+    VuePrincipale();
     virtual ~VuePrincipale();
-    VueMeteo* getLavueMeteo();
-    mettreAjour();
+    //VueMeteo* getLaVueMeteo();
+    VueSerre* getLaVueSerre();
+    void mettreAjour();
 private:
+    //VueMeteo *laVueMeteo;
+    VueSerre *laVueSerre[3];
     Ui::VuePrincipale widget;
 };
 

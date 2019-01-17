@@ -12,10 +12,31 @@
  */
 
 #include "VuePrincipale.h"
+using namespace std;
 
 VuePrincipale::VuePrincipale() {
     widget.setupUi(this);
+    QGridLayout *serre = new QGridLayout(this);
+    VueSerre* ptrserre = new VueSerre;
+    serre->addWidget(ptrserre);
+    setLayout(serre);
 }
 
 VuePrincipale::~VuePrincipale() {
+}
+
+/*
+  VueMeteo* VuePrincipale :: getLaVueMeteo(){
+    
+}
+ */
+
+VueSerre* VuePrincipale::getLaVueSerre() {
+
+    return 0;
+}
+
+void VuePrincipale::mettreAjour() {
+    //VueMeteo mettreAjour();
+    VueSerre mettreAjour();
 }
