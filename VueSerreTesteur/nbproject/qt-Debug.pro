@@ -2,14 +2,14 @@
 # Use project properties -> Build -> Qt -> Expert -> Custom Definitions.
 TEMPLATE = app
 DESTDIR = dist/Debug/GNU-Linux
-TARGET = QtApplication_1
+TARGET = VueSerreTesteur
 VERSION = 1.0.0
 CONFIG -= debug_and_release app_bundle lib_bundle
 CONFIG += debug 
 PKGCONFIG +=
 QT = core gui widgets
-SOURCES += InfoClimat.cpp main.cpp vueSerre.cpp
-HEADERS += InfoClimat.h vueSerre.h
+SOURCES += InfosClimat.cpp VueSerre.cpp.cc main.cpp
+HEADERS += InfosClimat.h VueSerre.h
 FORMS += VueSerre.ui
 RESOURCES +=
 TRANSLATIONS +=

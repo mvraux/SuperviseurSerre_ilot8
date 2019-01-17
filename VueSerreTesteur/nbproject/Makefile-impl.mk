@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=QtApplication_1
+PROJECTNAME=VueSerreTesteur
 
 # Active Configuration
 DEFAULTCONF=Debug

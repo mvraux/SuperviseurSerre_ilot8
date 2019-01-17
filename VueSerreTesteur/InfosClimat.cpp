@@ -5,20 +5,20 @@
  */
 
 /* 
- * File:   vueSerre.cpp
+ * File:   InfoClimat.cpp
  * Author: snir2g2
  * 
- * Created on 15 janvier 2019, 14:51
+ * Created on 15 janvier 2019, 14:49
  */
 
-#include "vueSerre.h"
+#include "InfosClimat.h"
 
-vueSerre::vueSerre() {
+InfosClimat::InfosClimat() {
 }
 
-vueSerre::vueSerre(const vueSerre& orig) {
+InfosClimat::InfosClimat(const InfosClimat& orig) {
 }
 
-vueSerre::~vueSerre() {
+InfosClimat::~InfosClimat() {
 }
 
