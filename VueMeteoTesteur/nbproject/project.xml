@@ -5,11 +5,13 @@
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>VueMeteoTesteur</name>
             <c-extensions/>
-            <cpp-extensions>cpp</cpp-extensions>
-            <header-extensions/>
+            <cpp-extensions>cc,cpp</cpp-extensions>
+            <header-extensions>h</header-extensions>
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
-            <sourceRootList/>
+            <sourceRootList>
+                <sourceRootElem>/tmp/mozilla_snir2g20</sourceRootElem>
+            </sourceRootList>
             <confList>
                 <confElem>
                     <name>Debug</name>
